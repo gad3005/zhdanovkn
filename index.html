@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="html 5 template">
+		<meta name="author" content="tonytemplates.com">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="icon" href="favicon.ico">
+		<title>Автопленка</title>
+		<!-- Bootstrap core CSS -->
+		<link href="css/plugins/bootstrap.min.css" rel="stylesheet">
+		<link href="css/plugins/bootstrap-submenu.css" rel="stylesheet">
+		<link href="css/plugins/animate.min.css" rel="stylesheet">
+		<link href="css/plugins/slick.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">    
+    <link href="css/plugins/bootstrap-datetimepicker.css" rel="stylesheet">
+    	<link href="css/color/color-blue.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<!-- Icon Font-->
+		<link href="iconfont/style.css" rel="stylesheet">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+		<!-- Google map -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+	</head>
+	<body class="home">
+		<!-- Loader -->
+		<div id="loader-wrapper">
+			<div class="loader">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="subline"></div>
+				<div class="subline"></div>
+				<div class="subline"></div>
+				<div class="subline"></div>
+				<div class="subline"></div>
+				<div class="loader-circle-1">
+					<div class="loader-circle-2"></div>
+				</div>
+				<div class="needle"></div>
+				<div class="loading">Загрузка</div>
+			</div>
+		</div>
+		<!-- //Loader -->
+		<!-- Header -->
+		<header class="page-header">
+			<nav class="navbar" id="slide-nav">
+				<div class="container">
+					<div class="header-row">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo-blue.png" alt="Логотип"></a>
+						</div>
+						<div class="header-right">
+							<button type="button" class="navbar-toggle"><i class="icon icon-lines-menu"></i></button>
+							<div class="header-right-top">
+								<div class="address">
+									Понедельник-Суббота <span class="custom-color">9:00 - 20:00</span>
+								</div>
+								<a href="#" class="appointment" data-toggle="modal" data-target="#appointmentForm"><i class="icon-shape icon"></i><span>Заявка</span></a>
+							</div>
+							<div class="header-right-bottom">
+								<div class="header-phone"><span class="text">Свяжись с нами прямо сейчас!</span><span class="phone-number"><span class="code">(066) </span>266-40-07</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="slidemenu">
+						<div class="row">
+							<div class="col-md-9">
+								<div class="close-menu"><i class="icon-close-cross"></i></div>
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="index.html"><span>Главная</span></a></li>
+									<li><a href="about.html"><span>О нас</span></a></li>
+									<li class="dropdown">
+										<a href="services.html" data-toggle="dropdown" data-submenu=""><span>Цены</span><span class="ecaret"></span></a>
+										
+									</li>
+									<li class="dropdown">
+										<a href="blog-card.html" data-toggle="dropdown" data-submenu=""><span>Статьи</span><span class="ecaret"></span></a>
+										
+									</li>
+									<li><a href="gallery.html"><span>Наши работы</span></a>
+									</li>
+									<li><a href="faq.html"><span>Вопрос/Ответ</span></a>
+									</li>
+									<li><a href="contact.html"><span>Контакты</span></a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<div class="search-container">
+									<input placeholder="Поиск" type="text">
+									<a class="button">
+									<i class="icon icon-search"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- // Header -->
+		<!-- Slider -->
+		<div id="mainSliderWrapper">
+			<div id="mainSlider">
+				<div class="slide">
+					<div class="img--holder" style="background-image: url(images/slider/slide1.jpg);"></div>
+					<div class="slide-content center">
+						<div class="vert-wrap container">
+							<div class="vert">
+								<div class="container">
+									<h4 data-animation="zoomIn" data-animation-delay="0.5s" style="text-shadow: 2px 2px 3px black, 0 0 1em blue;">Летняя Акция</h4>
+									<h3 data-animation="scaleOut" data-animation-delay="0.2s" style="text-shadow: 2px 2px 3px black, 0 0 1em blue;">Скидка 30%</h3>
+									<p data-animation="fadeIn" data-animation-delay="0.9s" style="text-shadow: 2px 2px 3px black, 0 0 1em blue;">На полную поклейку автомобиля</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="img--holder" style="background-image: url(images/slider/slide2.jpg);"></div>
+					<div class="slide-content container left">
+						<div class="vert-wrap">
+							<div class="vert">
+								<div class="container">
+									<h4 data-animation="fadeInLeft" data-animation-delay="0.2s" style="text-shadow: 1px 1px 1px black, 0 0 0.3em black;">Защити свой автомобиль</h4>
+									<h3 data-animation="flipInX" data-animation-delay="0.8s" style="text-shadow: 0.5px 0.5px 0.5px black, 0 0 0.3em black;">Антигравийной пленкой</h3>
+									<h3 data-animation="flipInX" data-animation-delay="1.2s"></h3>
+									<p data-animation="fadeIn" data-animation-delay="1.5s" style="text-shadow: 0.5px 0.5px 0.5px black, 0 0 0.3em black;">Надежная защита лакокрасочного покрытия</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<!-- Slider -->
+		<!-- Content  -->
+		<div id="pageContent">
+			<!-- Under Slider Banner -->
+			<div class="block banner-under-slider">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-6">
+							<div class="row">
+								<div class="col-md-6">
+									<h2>Создаем</h2>
+									<h2 class="h-lg text-right"><span class="color">Дизайн</span></h2>
+								</div>
+								<div class="col-md-6">
+									<p style="text-align: center;
+">Мы не можем себе позволить доставлять Вам неудобства и выполним работы в кратчайшие сроки.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-6">
+							<div class="row">
+								<div class="col-md-6 col-lg-8">
+									<div class="negative-margin"><img src="images/banner-key.png" class="img-responsive" alt=""></div>
+								</div>
+								<div class="col-md-6 col-lg-4 action hidden-xs">
+									<a href="gallery.html" class="btn btn-full btn-border"><span>Наши работы</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- // Under Slider Banner -->
+			<!-- Services Banner Block -->
+			<div class="block">
+				<div class="container">
+					<div class="text-center">
+						<h2 class="h-lg">Наши услуги</h2>
+						
+					</div>
+					<div class="services-block services-carousel">
+						<div class="service">
+							<div class="image"><img src="images/service-1-bg.png" alt="#"></div>
+							<div class="caption">
+								<div class="vert-wrap">
+									<div class="vert">
+										<h3>Полная</h3>
+										<h2>оклейка</h2>
+										<div class="text">Замена цвета
+                                        <br>всего автомобиля
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="service">
+							<div class="image image-scale"><img src="images/service-2-bg.jpg" alt="#"></div>
+						</div>
+						<div class="service">
+							<div class="image"><img src="images/service-3-bg.jpg" alt="#"></div>
+							<div class="caption">
+								<div class="vert-wrap">
+									<div class="vert">
+										<h3>Защитная</h3>
+										<h2>Пленка</h2>
+										<div class="text">защита кузова
+											<br>антигравийной пленкой
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="service">
+							<div class="image image-scale"><img src="images/service-4-bg.jpg" alt="#"></div>
+						</div>
+						<div class="service dark">
+							<div class="image"><img src="images/service-5-bg.jpg" alt="#"></div>
+							<div class="caption">
+								<div class="vert-wrap">
+									<div class="vert">
+										<h3>Оклейка</h3>
+										<h2>Деталей Салона</h2>
+										<div class="text">декорирование деталей салона 
+											<br>под карбон, кожу и т.д.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="service">
+							<div class="image image-scale"><img src="images/service-6-bg.jpg" alt="#"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //Services Banner Block -->
+			
+									
+									
+			<!-- How It Works -->
+			<div class="block bg-2">
+				<div class="container">
+					<h2 class="h-lg text-center">Как мы <span class="color">Работаем</span></h2>
+					<div class="row how-works-row shifted">
+						<div class="col-sm-6 col-md-3">
+							<div class="how-works-block">
+								<div class="image">
+									<div class="image-scale"><img src="images/how-works-img-1.jpg" alt=""></div>
+								</div>
+								<div class="caption">
+									<div class="inside">
+										<div class="number"><span>1</span></div>
+										<div class="text">
+											<h5>Встреча с нашими специалистами</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="how-works-block">
+								<div class="image">
+									<div class="image-scale"><img src="images/how-works-img-2.jpg" alt=""></div>
+								</div>
+								<div class="caption">
+									<div class="inside">
+										<div class="number"><span>2</span></div>
+										<div class="text">
+											<h5>Выбор услуг</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="how-works-block">
+								<div class="image">
+									<div class="image-scale"><img src="images/how-works-img-3.jpg" alt=""></div>
+								</div>
+								<div class="caption">
+									<div class="inside">
+										<div class="number"><span>3</span></div>
+										<div class="text">
+											<h5>Подтверждение заказа</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="how-works-block">
+								<div class="image">
+									<div class="image-scale"><img src="images/how-works-img-4.jpg" alt=""></div>
+								</div>
+								<div class="caption">
+									<div class="inside">
+										<div class="number"><span>4</span></div>
+										<div class="text">
+											<h5>Возврат автомобиля</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //How It Works -->
+			<!-- Services Block -->
+			<div class="block">
+				<div class="container">
+					<h2 class="h-lg text-center">Почему стоит обратиться именно к нам?</h2>
+					
+					<div class="row text-icon-carousel">
+						<div class="col-sm-4 col-md-4">
+							<div class="text-icon">
+								<div class="icon-wrapper"><span><i class="icon icon-technology"></i><span class="icon-hover"></span></span>
+								</div>
+								<h3 class="title">Цены</h3>
+								<p class="text">У нас самые лучшие цены на поклейку любых деталей.</p>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4">
+							<div class="text-icon">
+								<div class="icon-wrapper"><span><i class="icon icon-tool"></i><span class="icon-hover"></span></span>
+								</div>
+								<h3 class="title">Лояльность</h3>
+								<p class="text">Индивидуальный подход к каждому клиенту.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4">
+							<div class="text-icon">
+								<div class="icon-wrapper"><span><i class="icon icon-diploma"></i><span class="icon-hover"></span></span>
+								</div>
+								<h3 class="title">Качество</h3>
+								<p class="text">Мы любим свою работу и делаем её на совесть.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //Services Block -->
+			<!-- Testimonials Block -->
+			<div class="block bg-3">
+				<div class="container-fluid">
+					<h2 class="h-lg text-center">Отзывы <span class="color">Наших</span> Клиентов</h2>
+					<div class="testimonials">
+						<div class="testimonials-item">
+							<div class="inside">
+								<div class="meta"><span class="rating"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span><span class="username">Владимир</span></div>
+								<div class="text">Всем доброго дня! Впечатления хорошие , адекватные и вежливые специалисты , даже с учётом "неожиданной" ситуации (увеличения и сложности работ, связанное с ржавчиной детали) повели себя корректно, спокойно, и без всяких отрицательных эмоций, качественно выполнили объём работ!</div>
+							</div>
+							<div class="bg-image" style="background-image: url(images/testimonial-bg-1.jpg);"></div>
+						</div>
+						<div class="testimonials-item">
+							<div class="inside">
+								<div class="meta"><span class="rating"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span><span class="username">Дмитрий</span></div>
+								<div class="text">Быстро, аккуратно и по хорошей цене, в других сервисах навязывают лишнюю работу, а тут меня поняли с полуслова и сделали так как я хотел. Вообщем мне все понравилось, молодцы, так держать!</div>
+							</div>
+							<div class="bg-image" style="background-image: url(images/testimonial-bg-2.jpg);"></div>
+						</div>
+                        
+					</div>
+				</div>
+			</div>
+			<!-- //Testimonials Block -->
+			
+			
+			<!-- Appointment Block -->
+			<div class="block">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="text-appointment">
+								<h2 class="h-lg">Запишись <span class="color">На Поклейку</span> Сегодня</h2>
+								<p class="info">Оставьте заявку, чтобы с вами мог связаться наш специалист</p>
+								<h2 class="h-phone">Моб.: (066) 266-40-07</h2>
+								<div class="btn-inline" ><a class="btn btn-invert" class="appointment" data-toggle="modal" data-target="#appointmentForm"><span>Заявка</span></a><a class="btn" href="contact.html"><span>Задать вопрос</span></a></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="img-move animation" data-animation="fadeInRight" data-animation-delay="0s">
+								<img src="images/img-car-move.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //Appointment Block -->
+		</div>
+		<!-- // Content  -->
+		<!-- Footer -->
+		<div class="page-footer">
+			<div class="footer-content">
+				<div class="footer-col-left">
+					<div class="inside">
+						<div class="footer-phone">
+							<h2 class="h-phone">Моб.: <span class="number">(066) 266-40-07</span></h2>
+						</div>
+						<div class="contact-info"><i class="icon icon-locate"></i>г.Донецк ул.Щорса 100а.
+							<br> гаражный коператив
+						</div>
+						<div class="contact-info"><i class="icon icon-clock"></i>Понедельник-Суббота <span class="color">9:00 - 20:00</span>
+							<br> Воскресенье выходной
+						</div>
+						<div class="social-links">
+							<ul>
+								<li>
+									<a class="icon icon-vk" href="https://vk.com/autovinyl_dontetsk"></a>
+								</li>
+								
+								<li>
+									<a class="icon icon-instagram" href="https://www.instagram.com/autovinylmasters"></a>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-col-right">
+					<div id="footer-map" class="footer-map"></div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="copyright">© 2017 Автопленка Донецк.</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Footer -->
+		<div class="darkout-menu"></div>
+		<!--Get Form Info-->
+		<div class="modal modal-info fade" id="tab1Modal">
+			<div class="modal-dialog container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-xs-9">
+								<h3>The Tires Price</h3>
+							</div>
+							<div class="col-xs-3">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon-close-cross"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae in, perspiciatis iusto rerum non temporibus tenetur.
+						<ul class="marker-list-sm">
+							<li><b>Price:</b> $49.95</li>
+							<li><b>Your discount:</b> -20%</li>
+							<li><b>Total Price:</b> $39.95</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Get Form Info -->
+		<!--Get Form Info-->
+		<div class="modal modal-info fade" id="tab2Modal">
+			<div class="modal-dialog container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-xs-9">
+								<h3>Oil Change Price</h3>
+							</div>
+							<div class="col-xs-3">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon-close-cross"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae in, perspiciatis iusto rerum non temporibus tenetur.
+						<ul class="marker-list-sm">
+							<li><b>Price:</b> $49.95</li>
+							<li><b>Your discount:</b> -20%</li>
+							<li><b>Total Price:</b> $39.95</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Get Form Info -->
+		<!--Get Form Info-->
+		<div class="modal modal-info fade" id="tab3Modal">
+			<div class="modal-dialog container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-xs-9">
+								<h3>Batteries Price</h3>
+							</div>
+							<div class="col-xs-3">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon-close-cross"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae in, perspiciatis iusto rerum non temporibus tenetur.
+						<ul class="marker-list-sm">
+							<li><b>Price:</b> $49.95</li>
+							<li><b>Your discount:</b> -20%</li>
+							<li><b>Total Price:</b> $39.95</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Get Form Info -->
+		<!--Get Form Info-->
+		<div class="modal modal-info fade" id="tab4Modal">
+			<div class="modal-dialog container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-xs-9">
+								<h3>Brakes Price</h3>
+							</div>
+							<div class="col-xs-3">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon-close-cross"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae in, perspiciatis iusto rerum non temporibus tenetur.
+						<ul class="marker-list-sm">
+							<li><b>Price:</b> $49.95</li>
+							<li><b>Your discount:</b> -20%</li>
+							<li><b>Total Price:</b> $39.95</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Get Form Info -->
+		<!--Get Form Info-->
+		<div class="modal modal-info fade" id="tab5Modal">
+			<div class="modal-dialog container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-xs-9">
+								<h3>Aligment Price</h3>
+							</div>
+							<div class="col-xs-3">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon-close-cross"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae in, perspiciatis iusto rerum non temporibus tenetur.
+						<ul class="marker-list-sm">
+							<li><b>Price:</b> $49.95</li>
+							<li><b>Your discount:</b> -20%</li>
+							<li><b>Total Price:</b> $39.95</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Get Form Info -->
+		<!--Get Recalls-->
+		<div class="modal modal-info fade" id="getRecallsModal">
+			<div class="modal-dialog container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-xs-9">
+								<h3>Recalls, Investigations & Complaints</h3>
+							</div>
+							<div class="col-xs-3">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon-close-cross"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae in, perspiciatis iusto rerum non temporibus tenetur.
+						<ul class="marker-list-sm">
+							<li>Lorem ipsum dolor sit amet, consectetur</li>
+							<li>Repellendus alias unde tempore assumenda fugiat</li>
+							<li>Blanditiis impedit repellat, quos minus dolorem autem</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Get Recalls -->
+		<!-- Appointment Form -->
+		<div class="modal fade" id="appointmentForm">
+			<div class="modal-dialog container">
+				<div class="modal-content">
+					<div class="modal-header"><a href="#" class="appointment" data-toggle="modal" data-target="#appointmentForm"><i class="icon-shape icon"></i><span>Заявка</span></a>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon-close-cross"></i></button>
+					</div>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-4 hidden-xs hidden-sm">
+									<div class="animate"><img src="images/appointment-bg.png" class="img-responsive" alt=""></div>
+								</div>
+								<div class="col-md-7">
+									<h2>Обратная связь.</h2>
+									<p>Чтобы записаться к нам на встречу или задать интересующий вас вопрос, позвоните нам по номеру (066) 266-40-07 или заполните форму ниже с Вашими данными. Один из членов нашей команды свяжется с вами как можно скорее.</p>
+									<div class="divider"></div>
+									<form id="appointment-form" class="contact-form form-horizontal col-md-8" name="contactform" method="post">
+										<div id="successAppointment" class="successform">
+											<p>Ваше сообщение отправлено!</p>
+										</div>
+										<div id="errorAppointment" class="errorform">
+											<p>Что-то пошло не так, попробуйте еще раз.</p>
+										</div>
+										<h5>Контактная информация</h5>
+										<div class="form-group">
+											<input type="text" name="name" class="form-control input-custom" value="" placeholder="Имя">
+										</div>
+										
+										<div class="form-group">
+											<input type="text" name="phone" class="form-control input-custom" value="" placeholder="Номер телефона">
+										</div>
+										
+										
+										<div class="form-group">
+											<textarea name="message" class="form-control textarea-custom" placeholder="Ваш вопрос"></textarea>
+										</div>
+										<p><i>Максимум 250 знаков</i></p>
+										<button type="submit" id="submit" class="btn btn-lg"><span>Отправить</span></button>
+										<div class="divider"></div>
+										<p><i>Наши специалисты перезвонят Вам, и ответят на все интересующие вопросы.</i></p>
+										<div class="divider"></div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Appointment Form -->
+		<!-- External JavaScripts -->
+		<script src="js/jquery.js"></script>
+		<script src="js/plugins/bootstrap.min.js"></script>
+		<script src="js/plugins/slick.min.js"></script>
+		<script src="js/plugins/jquery.form.js"></script>
+		<script src="js/plugins/jquery.validate.min.js"></script>
+   		<script src="js/plugins/moment.js"></script>
+		<script src="js/plugins/bootstrap-datetimepicker.js"></script>
+		<script src="js/plugins/jquery.waypoints.min.js"></script>
+		<script src="js/plugins/jquery.countTo.js"></script>
+		<!-- Custom JavaScripts -->
+		<script src="js/custom.js"></script>
+		<script src="js/forms.js"></script>
+	</body>
+</html>
